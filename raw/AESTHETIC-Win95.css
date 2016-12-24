@@ -484,10 +484,6 @@ form.form.settings.notification-settings-modal {
     margin: 10px 10px 25px 10px;
 }
 
-.channel-textarea-inner {
-    height: 45px;
-}
-
 .typing {
     left: 10px;
     bottom: 0px;
@@ -666,4 +662,73 @@ form.form.settings.notification-settings-modal {
 
 button.btn.icon.icon-logout {
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE3LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTYgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8ZyBpZD0iaW50ZXJmYWNlXy1fbG9naW5fZW50ZXIiPgoJPGc+CgkJPHBhdGggZmlsbD0iIzg3OTA5QyIgZD0iTTEzLDEzLjVjMCwwLjMtMC4yLDAuNS0wLjUsMC41aC0xMUMxLjIsMTQsMSwxMy44LDEsMTMuNXYtMTJDMSwxLjIsMS4yLDEsMS41LDFoMTFDMTIuOCwxLDEzLDEuMiwxMywxLjUKCQkJVjRoMVYxYzAtMC42LTAuNC0xLTEtMUgxQzAuNCwwLDAsMC40LDAsMXYxM2MwLDAuNiwwLjQsMSwxLDFoMTJjMC42LDAsMS0wLjQsMS0xdi0zaC0xVjEzLjV6IE0xNS41LDdIMy43bDMuMi0zLjIKCQkJQzcsMy42LDcsMy4zLDYuOSwzLjFDNi43LDMsNi40LDMsNi4yLDMuMWwtNCw0YzAsMCwwLDAtMC4xLDBDMiw3LjIsMiw3LjQsMiw3LjVsMCwwbDAsMGMwLDAuMSwwLDAuMywwLjEsMC40YzAsMCwwLDAsMC4xLDBsNCw0CgkJCWMwLjIsMC4yLDAuNSwwLjIsMC43LDBzMC4yLTAuNSwwLTAuN0wzLjcsOGgxMS44QzE1LjgsOCwxNiw3LjgsMTYsNy41UzE1LjgsNywxNS41LDd6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==) !important
+}
+
+.tab-bar.TOP {
+    height: 20px;
+}
+
+.tab-bar.TOP .bda-slist-top {
+    height: 30px;
+    margin-top: -20px;
+}
+
+
+#bd-plugins-pane .bda-slist-top, #bd-themes-pane .bda-slist-top {
+    margin-top: -25px;
+}
+
+#bd-plugins-pane .bda-slist-top .btn, #bd-themes-pane .bda-slist-top .btn {
+    width: 75px !important;
+    padding: 0px;
+    line-height: 1.2em;
+    height: 35px;
+    margin-top: -34px;
+}
+.bda-slist li {
+    padding: 4px;
+}
+
+.settings .settings-header {
+    background-color: #c0c0c0;
+    box-shadow: none !important;
+    border: 0px !important;
+    margin-top: 2px;
+}
+
+.tab-bar.SIDE {
+    border-right: 1px solid black;
+}
+
+.settings-right {
+    margin-top: 22px;
+}
+
+.settings-inner .scroller-wrap {
+    border-top: 0px;
+}
+
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind {
+    background-color: #43b581 !important;
+    text-align: center;
+}
+
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind:active {
+}
+
+.tab-bar-item {
+    color: #0a0a0a !important;
+}
+
+.tab-bar-item.selected {
+    color: hsla(227,58%,40%,1) !important;
+}
+
+.change-log-button-container .change-log-button {
+    color: #4056a2;
+    font-weight: bold;
+}
+
+.change-log-button-container .change-log-button:hover {
+    color: #4056a2;
 }
