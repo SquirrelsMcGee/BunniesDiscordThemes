@@ -2,6 +2,11 @@
     background-color: rgba(0,0,0,0) !important;
 }
 
+/*Fixing message text flickering bug*/
+.message-group {
+    transform: translateZ(0);
+}
+
 .titlebar {
     background: #00007B;
     height: 22px;
@@ -524,10 +529,6 @@ form.form.settings.notification-settings-modal {
     border-bottom: 1px solid black;
 }
 
-.account {
-    height: 80px;
-}
-
 .btn-confirm:not(.reverse-slide) .btn:last-of-type:not(:first-of-type) {
     visibility: hidden;
 }
@@ -732,4 +733,45 @@ button.btn.icon.icon-logout {
 
 .change-log-button-container .change-log-button:hover {
     color: #4056a2;
+}
+
+.private-channels .channel {
+    color: black !important;
+}
+
+.private-channels .channel a {
+    color: black;
+}
+
+.private-channels .channel .channel-name {
+    opacity: .9;
+}
+
+.search-bar .search-bar-inner {
+    border-radius: 0px;
+    background: white;
+}
+
+.search-bar input {
+	color: black;
+}
+
+.search-bar {
+    background: #c0c0c0 !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+    height: 56px !important;
+    border-bottom: 1px solid black;
+}
+
+.search-bar input::-webkit-input-placeholder {
+    color: black;
+}
+
+.search-bar-icon {
+    -webkit-filter: brightness(0);
+}
+
+.private-channels .search-result .search-result-name {
+    color: rgba(0,0,0,0.9);
 }
