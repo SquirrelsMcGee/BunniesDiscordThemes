@@ -775,3 +775,30 @@ button.btn.icon.icon-logout {
 .private-channels .search-result .search-result-name {
     color: rgba(0,0,0,0.9);
 }
+
+#friends .friends-table .friends-row .discord-tag {
+    color: #7b7d7f;
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-description, #friends .friends-table .friends-row .discord-tag .username, #friends .friends-table .friends-row .friends-column-status .status-text {
+    color: #7b7d7f;
+}
+
+.private-channels .channel:hover .channel-activity, .private-channels .channel:hover a {
+    background-color: #939496;
+}
+
+.private-channels .channel.selected a {
+    background-color: #7b7d7f;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #7b7d7f;
+}
+.guilds-wrapper .guilds .guild {
+    background: #1e212400;
+}
